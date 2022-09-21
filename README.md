@@ -1,6 +1,6 @@
-# Securing a Containerized Django Application with Let's Encrypt
+# Docker에서 실행되는 Nginx에 SSL적용하여 https서비스 만들기
 
-## Want to learn how to build this?
+## Securing a Containerized Django Application with Let's Encrypt
 
 Check out the [post](https://testdriven.io/blog/django-lets-encrypt/).
 
