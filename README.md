@@ -8,12 +8,16 @@ Check out the [post](https://testdriven.io/blog/django-lets-encrypt/).
 
 ### docker-compose를 실행합니다.
 
+1. docker-compose.yml파일을 확인하고 아래 명령어를 실행하여 docker Container를 실행한다.
+
     ```sh
     $ docker-compose -f docker-compose.yml up -d
-    $ docker ps // nginx와 certbot 컨테이너가 살아있는지 확인
     ```
+1. nginx와 certbot 컨테이너가 살아있는지 확인
 
-    Test it out.
+    ```sh
+    $ docker ps
+    ```
 
 ### Let's Encrypt 발급
 
