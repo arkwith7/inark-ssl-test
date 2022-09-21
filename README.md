@@ -4,6 +4,10 @@
 
 Check out the [post](https://testdriven.io/blog/django-lets-encrypt/).
 
+## 도메인 설정
+당연히 도메인이 필요하다. 프론트엔드의 IP를 도메인에 걸어줘야 하는데, A Record나 AAAA Record 둘 중의 하나로 적용해야 인증서를 발급할 수 있다.
+이제 도메인에 대한 설정은 끝났다.
+
 ## https를 적용하지 않고 SSL 인증서 발급받기
 
 ### docker-compose를 실행합니다.
